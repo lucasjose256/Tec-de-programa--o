@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TranporterRoom
+comment1.params=room
+comment1.target=TranporterRoom(java.util.ArrayList)
+comment2.params=
+comment2.target=Room\ transporter_for_anotherRoom()
+numComments=3

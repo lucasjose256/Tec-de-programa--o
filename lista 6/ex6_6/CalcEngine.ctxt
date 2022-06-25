@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=CalcEngine
+comment0.text=\r\n\ The\ main\ part\ of\ the\ calculator\ doing\ the\ calculations.\r\n\ \r\n\ @author\ \ David\ J.\ Barnes\ and\ Michael\ Kolling\ \r\n\ @version\ 2008.03.30\r\n
+comment1.params=
+comment1.target=CalcEngine()
+comment10.params=
+comment10.target=java.lang.String\ getVersion()
+comment10.text=\r\n\ @return\ The\ version\ number\ of\ this\ engine.\ This\ string\ is\ displayed\ as\ \r\n\ it\ is,\ so\ it\ should\ say\ something\ like\ "Version\ 1.1".\r\n
+comment11.params=
+comment11.target=void\ calculateResult()
+comment2.params=
+comment2.target=int\ getDisplayValue()
+comment2.text=\r\n\ @return\ The\ value\ that\ should\ currently\ be\ displayed\r\n\ on\ the\ calculator\ display.\r\n
+comment3.params=number
+comment3.target=void\ numberPressed(int)
+comment3.text=\r\n\ A\ number\ button\ was\ pressed.\r\n\ Either\ start\ a\ new\ operand,\ or\ incorporate\ this\ number\ as\r\n\ the\ least\ significant\ digit\ of\ an\ existing\ one.\r\n\ @param\ number\ The\ number\ pressed\ on\ the\ calculator.\r\n
+comment4.params=
+comment4.target=void\ plus()
+comment4.text=\r\n\ The\ 'plus'\ button\ was\ pressed.\ \r\n
+comment5.params=
+comment5.target=void\ minus()
+comment5.text=\r\n\ The\ 'minus'\ button\ was\ pressed.\r\n
+comment6.params=
+comment6.target=void\ equals()
+comment6.text=\r\n\ The\ '\='\ button\ was\ pressed.\r\n
+comment7.params=
+comment7.target=void\ clear()
+comment8.params=
+comment8.target=java.lang.String\ getTitle()
+comment8.text=\r\n\ @return\ The\ title\ of\ this\ calculation\ engine.\r\n
+comment9.params=
+comment9.target=java.lang.String\ getAuthor()
+comment9.text=\r\n\ @return\ The\ author\ of\ this\ engine.\ This\ string\ is\ displayed\ as\ it\ is,\r\n\ so\ it\ should\ say\ something\ like\ "Written\ by\ H.\ Simpson".\r\n
+numComments=12

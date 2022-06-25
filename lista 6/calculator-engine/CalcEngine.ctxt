@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=CalcEngine
+comment0.text=\r\n\ The\ main\ part\ of\ the\ calculator\ performing\ the\r\n\ arithmetic\ logic\ of\ the\ calculations.\r\n\ @author\ Hacker\ T.\ Largebrain\ \r\n\ @version\ 0.1\r\n
+comment1.params=
+comment1.target=CalcEngine()
+comment1.text=\r\n\ Create\ a\ CalcEngine\ instance.\r\n
+comment10.params=
+comment10.target=java.lang.String\ getVersion()
+comment10.text=\r\n\ @return\ The\ version\ number\ of\ this\ engine.\r\n
+comment11.params=
+comment11.target=void\ applyPreviousOperator()
+comment11.text=\r\n\ An\ operator\ button\ has\ been\ pressed.\r\n\ Apply\ the\ immediately\ preceding\ operator\ to\r\n\ calculate\ an\ intermediate\ result.\ This\ will\r\n\ form\ the\ left\ operand\ of\ the\ new\ operator.\r\n
+comment2.params=
+comment2.target=int\ getDisplayValue()
+comment2.text=\r\n\ @return\ The\ value\ currently\ displayed\r\n\ on\ the\ calculator.\r\n
+comment3.params=number
+comment3.target=void\ numberPressed(int)
+comment3.text=\r\n\ A\ number\ button\ was\ pressed.\r\n\ @param\ number\ The\ single\ digit.\r\n
+comment4.params=
+comment4.target=void\ plus()
+comment4.text=\r\n\ The\ '+'\ button\ was\ pressed.\ \r\n
+comment5.params=
+comment5.target=void\ minus()
+comment5.text=\r\n\ The\ '-'\ button\ was\ pressed.\r\n
+comment6.params=
+comment6.target=void\ equals()
+comment6.text=\r\n\ The\ '\='\ button\ was\ pressed.\r\n
+comment7.params=
+comment7.target=void\ clear()
+comment7.text=\r\n\ The\ 'C'\ (clear)\ button\ was\ pressed.\r\n
+comment8.params=
+comment8.target=java.lang.String\ getTitle()
+comment8.text=\r\n\ @return\ The\ title\ of\ this\ calculation\ engine.\r\n
+comment9.params=
+comment9.target=java.lang.String\ getAuthor()
+comment9.text=\r\n\ @return\ The\ author\ of\ this\ engine.\r\n
+numComments=12

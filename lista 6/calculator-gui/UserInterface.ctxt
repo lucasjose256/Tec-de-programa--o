@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=UserInterface
+comment0.text=\r\n\ A\ graphical\ user\ interface\ for\ the\ calculator.\ No\ calculation\ is\ being\r\n\ done\ here.\ This\ class\ is\ responsible\ just\ for\ putting\ up\ the\ display\ on\ \r\n\ screen.\ It\ then\ refers\ to\ the\ "CalcEngine"\ to\ do\ all\ the\ real\ work.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling\r\n\ @version\ 2008.03.30\r\n
+comment1.params=engine
+comment1.target=UserInterface(CalcEngine)
+comment1.text=\r\n\ Create\ a\ user\ interface.\r\n\ @param\ engine\ The\ calculator\ engine.\r\n
+comment2.params=visible
+comment2.target=void\ setVisible(boolean)
+comment2.text=\r\n\ Set\ the\ visibility\ of\ the\ interface.\r\n\ @param\ visible\ true\ if\ the\ interface\ is\ to\ be\ made\ visible,\ false\ otherwise.\r\n
+comment3.params=
+comment3.target=void\ makeFrame()
+comment3.text=\r\n\ Make\ the\ frame\ for\ the\ user\ interface.\r\n
+comment4.params=panel\ buttonText
+comment4.target=void\ addButton(java.awt.Container,\ java.lang.String)
+comment4.text=\r\n\ Add\ a\ button\ to\ the\ button\ panel.\r\n\ @param\ panel\ The\ panel\ to\ receive\ the\ button.\r\n\ @param\ buttonText\ The\ text\ for\ the\ button.\r\n
+comment5.params=event
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.text=\r\n\ An\ interface\ action\ has\ been\ performed.\r\n\ Find\ out\ what\ it\ was\ and\ handle\ it.\r\n\ @param\ event\ The\ event\ that\ has\ occured.\r\n
+comment6.params=
+comment6.target=void\ redisplay()
+comment6.text=\r\n\ Update\ the\ interface\ display\ to\ show\ the\ current\ value\ of\ the\ \r\n\ calculator.\r\n
+comment7.params=
+comment7.target=void\ showInfo()
+comment7.text=\r\n\ Toggle\ the\ info\ display\ in\ the\ calculator's\ status\ area\ between\ the\r\n\ author\ and\ version\ information.\r\n
+numComments=8

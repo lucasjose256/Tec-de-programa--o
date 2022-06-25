@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=DayTest
+comment0.text=\r\n\ The\ test\ class\ DayTest.\r\n\r\n\ @author\ \ David\ J.\ Barnes\ and\ Michael\ Kolling\r\n\ @version\ 2008.03.30\r\n
+comment1.params=
+comment1.target=DayTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ DayTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testMakeThreeAppointments()
+comment4.text=\r\n\ Test\ basic\ functionality\ by\ booking\ at\ either\ end\r\n\ of\ a\ day,\ and\ in\ the\ middle.\r\n
+comment5.params=
+comment5.target=void\ testDoubleBooking()
+comment5.text=\r\n\ Check\ that\ double-booking\ is\ not\ permitted.\r\n
+comment6.params=
+comment6.target=void\ testNegative()
+numComments=7

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Day
+comment0.text=\r\n\ Maintain\ the\ appointments\ for\ one\ day\ in\ a\ diary.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling\r\n\ @version\ 2008.03.30\r\n
+comment1.params=dayNumber
+comment1.target=Day(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Day.\r\n\ @param\ dayNumber\ The\ number\ of\ this\ day\ in\ the\ year\ (1-366).\r\n
+comment2.params=appointment
+comment2.target=int\ findSpace(Appointment)
+comment2.text=\r\n\ Try\ to\ find\ space\ for\ an\ appointment.\r\n\ @param\ appointment\ The\ appointment\ to\ be\ accommodated.\r\n\ @return\ The\ earliest\ time\ today\ that\ can\ accommodate\r\n\ \ \ \ \ \ \ \ \ the\ appointment.\ Return\ -1\ if\ there\ is\ \r\n\ \ \ \ \ \ \ \ \ insufficient\ space.\r\n
+comment3.params=time\ appointment
+comment3.target=boolean\ makeAppointment(int,\ Appointment)
+comment3.text=\r\n\ Make\ an\ appointment.\r\n\ @param\ time\ The\ hour\ at\ which\ the\ appointment\ starts.\r\n\ @param\ appointment\ The\ appointment\ to\ be\ made.\r\n\ @return\ true\ if\ the\ appointment\ was\ successful,\r\n\ \ \ \ \ \ \ \ \ false\ otherwise.\r\n
+comment4.params=time
+comment4.target=Appointment\ getAppointment(int)
+comment4.text=\r\n\ @param\ time\ Which\ time\ of\ day.\ This\ must\ be\ between\ the\r\n\ \ \ \ \ \ \ \ START_OF_DAY\ time\ and\ the\ FINAL_APPOINTMENT_TIME.\r\n\ @return\ The\ Appointment\ at\ the\ given\ time.\ null\ is\ returned\r\n\ \ \ \ \ \ \ \ \ if\ either\ the\ time\ is\ invalid\ or\ there\ is\ no\r\n\ \ \ \ \ \ \ \ \ Appointment\ at\ the\ given\ time.\r\n
+comment5.params=
+comment5.target=void\ showAppointments()
+comment5.text=\r\n\ Print\ a\ list\ of\ the\ day's\ appointments\ on\ standard\ output.\r\n
+comment6.params=
+comment6.target=int\ getDayNumber()
+comment6.text=\r\n\ @return\ The\ number\ of\ this\ day\ within\ the\ year\ (1\ -\ 366).\r\n
+comment7.params=time
+comment7.target=boolean\ validTime(int)
+comment7.text=\r\n\ @return\ true\ if\ the\ time\ is\ between\ FINAL_APPOINTMENT_TIME\ and\r\n\ \ \ \ \ \ \ \ \ END_OF_DAY,\ false\ otherwise.\r\n
+numComments=8

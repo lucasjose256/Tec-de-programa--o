@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=BoxBall
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ BoxBall\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=canv\ circles\ rectangle
+comment1.target=BoxBall(javafx.scene.canvas.Canvas,\ java.util.ArrayList,\ java.awt.geom.Rectangle2D.Double)
+comment2.params=
+comment2.target=void\ draw()
+comment3.params=
+comment3.target=void\ erase()
+comment3.text=\r\n\ Erase\ this\ ball\ at\ its\ current\ position.\r\n
+numComments=4

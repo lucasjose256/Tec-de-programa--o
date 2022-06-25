@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=BouncingBall
+comment0.text=\r\n\ Class\ BouncingBall\ -\ a\ graphical\ ball\ that\ observes\ the\ effect\ of\ gravity.\ The\ ball\r\n\ has\ the\ ability\ to\ move.\ Details\ of\ movement\ are\ determined\ by\ the\ ball\ itself.\ It\r\n\ will\ fall\ downwards,\ accelerating\ with\ time\ due\ to\ the\ effect\ of\ gravity,\ and\ bounce\r\n\ upward\ again\ when\ hitting\ the\ ground.\r\n\r\n\ This\ movement\ can\ be\ initiated\ by\ repeated\ calls\ to\ the\ "move"\ method.\r\n\ \r\n\ @author\ Bruce\ Quig\r\n\ @author\ Michael\ Kolling\ (mik)\r\n\ @author\ David\ J.\ Barnes\r\n\r\n\ @version\ 2008.03.30\r\n
+comment1.params=xPos\ yPos\ ballDiameter\ ballColor\ groundPos\ drawingCanvas
+comment1.target=BouncingBall(int,\ int,\ int,\ java.awt.Color,\ int,\ Canvas)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BouncingBall\r\n\r\n\ @param\ xPos\ \ the\ horizontal\ coordinate\ of\ the\ ball\r\n\ @param\ yPos\ \ the\ vertical\ coordinate\ of\ the\ ball\r\n\ @param\ ballDiameter\ \ the\ diameter\ (in\ pixels)\ of\ the\ ball\r\n\ @param\ ballColor\ \ the\ color\ of\ the\ ball\r\n\ @param\ groundPos\ \ the\ position\ of\ the\ ground\ (where\ the\ wall\ will\ bounce)\r\n\ @param\ drawingCanvas\ \ the\ canvas\ to\ draw\ this\ ball\ on\r\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\r\n\ Draw\ this\ ball\ at\ its\ current\ position\ onto\ the\ canvas.\r\n
+comment3.params=
+comment3.target=void\ erase()
+comment3.text=\r\n\ Erase\ this\ ball\ at\ its\ current\ position.\r\n
+comment4.params=
+comment4.target=void\ move()
+comment4.text=\r\n\ Move\ this\ ball\ according\ to\ its\ position\ and\ speed\ and\ redraw.\r\n
+comment5.params=
+comment5.target=int\ getXPosition()
+comment5.text=\r\n\ return\ the\ horizontal\ position\ of\ this\ ball\r\n
+comment6.params=
+comment6.target=int\ getYPosition()
+comment6.text=\r\n\ return\ the\ vertical\ position\ of\ this\ ball\r\n
+comment7.params=
+comment7.target=void\ boxBounce()
+numComments=8
